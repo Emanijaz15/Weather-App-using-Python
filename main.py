@@ -1,5 +1,5 @@
 import requests
-
+ 
 try:
     user=input("Enter city name to check Weather: ")
     api_key="198dec3434954733a2694735250107"
@@ -22,4 +22,5 @@ try:
     print(f"Wind (kph): {wind}")
 except KeyError:
     print("Error: Could not find expected data in the response.")
+
 
